@@ -11,6 +11,15 @@ VimでMarkdownを書くためのVimプラグインです。
 NeoBundle 'violetyk/iikanji-markdown.vim'
 ```
 
+[vim-plug](https://github.com/junegunn/vim-plug)なら以下の通り
+
+```.vimrc
+call plug#begin()
+" 違うプラグインの読み込み
+Plug 'violetyk/iikanji-markdown.vim'
+call plug#end()
+```
+
 ## 機能
 
 - いい感じのオートインデント設定
